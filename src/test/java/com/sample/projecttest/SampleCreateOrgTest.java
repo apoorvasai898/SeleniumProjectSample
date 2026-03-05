@@ -9,7 +9,7 @@ public class SampleCreateOrgTest {
 		System.out.println("Organization 1");
 	}
 	
-	@Test(groups = "RT")
+	@Test(groups = "ST")
 	public void createOrg2Test()
 	{
 		System.out.println("Organization 2");
