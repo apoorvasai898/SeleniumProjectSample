@@ -10,14 +10,14 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
-import com.comcast.crm.generic.fileutility.ExcelUtility;
-import com.comcast.crm.generic.fileutility.FileUtility;
-import com.comcast.crm.generic.webdriverutility.JavaUtility;
-import com.comcast.crm.generic.webdriverutility.WebDriverUtility;
+import com.sample.generic.fileutility.ExcelUtility;
+import com.sample.generic.fileutility.FileUtility;
+import com.sample.generic.webdriverutility.JavaUtility;
+import com.sample.generic.webdriverutility.WebDriverUtility;
 
 public class SampleTest {
 	@Test
-	public void createContact() throws IOException {
+	public void createContactTest() throws IOException {
 
 		// Objects of the UtilityClass
 		FileUtility flUtility = new FileUtility();
