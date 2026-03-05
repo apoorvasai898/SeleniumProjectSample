@@ -14,5 +14,11 @@ public class SampleCreateOrgTest {
 	{
 		System.out.println("Organization 2");
 	}
+	
+	@Test(groups = "RT")
+	public void createOrg3Test()
+	{
+		System.out.println("Organization 3 ===============================");
+	}
 
 }
