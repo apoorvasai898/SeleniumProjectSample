@@ -18,7 +18,7 @@ public class SampleCreateOrgTest {
 	@Test(groups = "RT")
 	public void createOrg3Test()
 	{
-		System.out.println("Organization 3 ===============================");
+		System.out.println("======Organization 3 ======");
 	}
 
 }
